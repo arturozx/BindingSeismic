@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{895DE932-DF81-4156-932A-364E4ABBF004}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BindingSeismic/MainActivity.cs">
+    <Files>
+      <File FileName="BindingSeismic/MainActivity.cs" Line="69" Column="10" />
+      <File FileName="JarBindingSeismic/Transforms/EnumMethods.xml" />
+      <File FileName="JarBindingSeismic/Transforms/EnumFields.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BindingSeismic" expanded="True" selected="True">
+            <Node name="BindingSeismic" expanded="True" />
+            <Node name="JarBindingSeismic" expanded="True">
+              <Node name="Jars" expanded="True" />
+              <Node name="Transforms" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BindingSeismic PreferredExecutionTarget="Android.caa6f723" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/q/Projects/BindingSeismic/JarBindingSeismic/Transforms/.#EnumMethods.xml" relfile="JarBindingSeismic/Transforms/.#EnumMethods.xml" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

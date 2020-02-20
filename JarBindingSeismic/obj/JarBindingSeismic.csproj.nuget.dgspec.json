@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/q/Projects/BindingSeismic/JarBindingSeismic/JarBindingSeismic.csproj": {}
+  },
+  "projects": {
+    "/Users/q/Projects/BindingSeismic/JarBindingSeismic/JarBindingSeismic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/q/Projects/BindingSeismic/JarBindingSeismic/JarBindingSeismic.csproj",
+        "projectName": "JarBindingSeismic",
+        "projectPath": "/Users/q/Projects/BindingSeismic/JarBindingSeismic/JarBindingSeismic.csproj",
+        "packagesPath": "/Users/q/.nuget/packages/",
+        "outputPath": "/Users/q/Projects/BindingSeismic/JarBindingSeismic/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/q/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/livly-feed/auth/d82cbf46-bc50-46c8-9414-3b90189765ed/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

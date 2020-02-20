@@ -1,0 +1,226 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.squareup.seismic"
+    jni-name="com/squareup/seismic">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ShakeDetector"
+      jni-signature="Lcom/squareup/seismic/ShakeDetector;"
+      static="false"
+      visibility="public">
+      <implements
+        name="android.hardware.SensorEventListener"
+        name-generic-aware="android.hardware.SensorEventListener"
+        jni-type="Landroid/hardware/SensorEventListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ShakeDetector"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/squareup/seismic/ShakeDetector$Listener;)V">
+        <parameter
+          name="listener"
+          type="com.squareup.seismic.ShakeDetector.Listener"
+          jni-type="Lcom/squareup/seismic/ShakeDetector$Listener;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAccuracyChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/hardware/Sensor;I)V">
+        <parameter
+          name="sensor"
+          type="android.hardware.Sensor"
+          jni-type="Landroid/hardware/Sensor;" />
+        <parameter
+          name="accuracy"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSensorChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/hardware/SensorEvent;)V">
+        <parameter
+          name="event"
+          type="android.hardware.SensorEvent"
+          jni-type="Landroid/hardware/SensorEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSensitivity"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="accelerationThreshold"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="start"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/hardware/SensorManager;)Z">
+        <parameter
+          name="sensorManager"
+          type="android.hardware.SensorManager"
+          jni-type="Landroid/hardware/SensorManager;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="stop"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SENSITIVITY_HARD"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="15"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SENSITIVITY_LIGHT"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="11"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SENSITIVITY_MEDIUM"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="13"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ShakeDetector.Listener"
+      jni-signature="Lcom/squareup/seismic/ShakeDetector$Listener;"
+      static="true"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="hearShake"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ShakeDetector.Sample"
+      jni-signature="Lcom/squareup/seismic/ShakeDetector$Sample;"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ShakeDetector.SamplePool"
+      jni-signature="Lcom/squareup/seismic/ShakeDetector$SamplePool;"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ShakeDetector.SampleQueue"
+      jni-signature="Lcom/squareup/seismic/ShakeDetector$SampleQueue;"
+      static="true"
+      visibility="" />
+  </package>
+</api>

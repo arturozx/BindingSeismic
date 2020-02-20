@@ -1,0 +1,10 @@
+com/squareup/seismic/ShakeDetector = Com.Squareup.Seismic.ShakeDetector
+  <init>(Lcom/squareup/seismic/ShakeDetector$Listener;)V = .ctor(Com.Squareup.Seismic.ShakeDetector.IListener)
+  SENSITIVITY_HARD = SensitivityHard
+  SENSITIVITY_LIGHT = SensitivityLight
+  SENSITIVITY_MEDIUM = SensitivityMedium
+  onAccuracyChanged(Landroid/hardware/Sensor;I)V = OnAccuracyChanged(Android.Hardware.Sensor, Android.Hardware.SensorStatus)
+  onSensorChanged(Landroid/hardware/SensorEvent;)V = OnSensorChanged(Android.Hardware.SensorEvent)
+  setSensitivity(I)V = SetSensitivity(int)
+  start(Landroid/hardware/SensorManager;)Z = Start(Android.Hardware.SensorManager)
+  stop()V = Stop()

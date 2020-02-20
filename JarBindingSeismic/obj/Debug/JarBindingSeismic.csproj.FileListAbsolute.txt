@@ -1,0 +1,4 @@
+/Users/q/Projects/BindingSeismic/JarBindingSeismic/bin/Debug/JarBindingSeismic.dll
+/Users/q/Projects/BindingSeismic/JarBindingSeismic/bin/Debug/JarBindingSeismic.pdb
+/Users/q/Projects/BindingSeismic/JarBindingSeismic/obj/Debug/JarBindingSeismic.dll
+/Users/q/Projects/BindingSeismic/JarBindingSeismic/obj/Debug/JarBindingSeismic.pdb
